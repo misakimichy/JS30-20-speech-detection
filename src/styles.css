@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #e7e7e7;
+    font-family: "Open sans", sans-serif;
+    font-size: 20px;
+}
+
+.words {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 1rem 2rem 1rem 5rem;
+    background: white;
+    background-size: 100% 3rem;
+    border-radius: 5px;
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    line-height: 3rem;
+}
+
+.words:before {
+    width: 4px;
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    bottom: 0px;
+    border: 1px solid;
+    border-color: transparent #e4e4e4;
+}
+
+p {
+    margin: 0 0 3rem;
+}
