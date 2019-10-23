@@ -18,8 +18,8 @@ import "./styles.css";
     if(e.results[0].isFinal) {
       p = document.createElement('p');
       words.appendChild(p);
+      p.textContent = transcript;
     }
-    p.textContent = transcript;
   });
   
   // Start recognition after each pause
