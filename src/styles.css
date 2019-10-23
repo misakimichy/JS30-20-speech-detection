@@ -16,8 +16,8 @@ body {
     max-width: 500px;
     margin: 20px auto;
     padding: 1rem 2rem 1rem 5rem;
-    background: white;
-    background-size: 100% 3rem;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+    background-size: 100% 2rem;
     border-radius: 5px;
     box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -33,8 +33,4 @@ body {
     bottom: 0px;
     border: 1px solid;
     border-color: transparent #e4e4e4;
-}
-
-p {
-    margin: 0 0 3rem;
 }
